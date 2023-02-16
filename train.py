@@ -97,7 +97,7 @@ def get_transform():
 
     val_transforms = transforms.Compose(
         [
-            transforms.Resize(256),
+            transforms.Resize((256, 256)),
             transforms.ToTensor(),
         ]
     )
